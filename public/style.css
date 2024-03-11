@@ -1,0 +1,59 @@
+/* Reset some default styles */
+@font-face {
+    font-family: Modenine;
+    src: url(./Modenine.ttf);
+  }
+  
+  * {
+    font-family: Modenine;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3f453f;
+    color: #00ff00;
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #webcam-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #webcam-container canvas {
+    width: 600px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  
+  #label-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #label-container > div {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #00ffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+  }
+  
