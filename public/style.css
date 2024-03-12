@@ -35,8 +35,8 @@
   }
   
   #webcam-container canvas {
-    width: 600px; /* Adjust the width as needed */
-    height: 600px; /* Adjust the height as needed */
+    width: 500px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
     border: 1px solid #ddd;
     border-radius: 5px;
   }
@@ -54,6 +54,6 @@
     border: 1px solid #00ffff;
     border-radius: 5px;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
   }
   
